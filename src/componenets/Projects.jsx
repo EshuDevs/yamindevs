@@ -9,6 +9,7 @@ const features = [
     description:
       'My personal website which I built with react and tailwind ',
     img: yamindevs,
+    url: 'https://yamindevs.netlify.app/',
     repo: 'https://github.com/EshuDevs/yamindevs'
     
   },
@@ -18,7 +19,7 @@ const features = [
       'its a website i built to practice it was also build with react and tailwind it has some functionality',
     img: shop,
     url: 'https://showcase-store.netlify.app/',
-    repo: 'https://github.com/EshuDevs/off-white-shop/tree/main/off-white-store',
+    repo: 'https://github.com/EshuDevs/off-white/tree/main/off-white-frontend',
   },
   {
     
@@ -52,8 +53,8 @@ export default function Projects() {
                 </dt>
                 <dd className="mt-2 md:h-[7rem] text-base leading-7 text-gray-600">{feature.description}</dd>
                 <div className='flex gap-5 mt-4'>
-                    <a href={feature.url} className='border border-indigo-600 px-9 py-1 text-indigo-600 rounded-full hover:text-white hover:bg-indigo-600'>Link</a>
-                    <a href={feature.repo} className='border border-indigo-600 px-9 py-1 text-indigo-600 rounded-full hover:text-white hover:bg-indigo-600'>Repo</a>
+                    <a href={feature.url} target='_blank' rel='noreferrer' className='border border-indigo-600 px-9 py-1 text-indigo-600 rounded-full hover:text-white hover:bg-indigo-600'>Link</a>
+                    <a href={feature.repo} target='_blank' rel='noreferrer' className='border border-indigo-600 px-9 py-1 text-indigo-600 rounded-full hover:text-white hover:bg-indigo-600'>Repo</a>
                 </div>
               </div>
             ))}
