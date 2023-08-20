@@ -44,7 +44,7 @@ export default function Projects() {
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+          <dl className="grid max-w-xl items center grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative w-[17rem] md:w-[22rem]">
                 <img src={feature.img} className='rounded-md border-4 mb-3 w-[17rem] md:w-[22rem] md:h-[12rem] border-gray-500'/>
