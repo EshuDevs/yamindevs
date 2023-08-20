@@ -44,7 +44,7 @@ const Contact = () => {
                       My Location
                     </h4>
                     <p className="text-base text-body-color">
-                      Boberger Lohe 32
+                      Boberger Lohe 32, 21031 Hamburg
                     </p>
                   </div>
                 </div>
