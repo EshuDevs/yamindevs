@@ -4,9 +4,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Home', href: '#', current: true },
-  { name: 'About', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'About', href: '#about', current: false },
+  { name: 'Projects', href: '#projects', current: false },
+  { name: 'Contact', href: '#contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -15,7 +15,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white py-3">
+    <Disclosure as="nav" className="bg-white w-full z-50 fixed top-0 py-3">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
