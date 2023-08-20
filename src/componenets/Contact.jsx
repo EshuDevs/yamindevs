@@ -25,7 +25,7 @@ const Contact = () => {
                 <span className="block mb-4 text-base font-semibold text-primary">
                   Contact Me
                 </span>
-                <h2 className="mb-6 text-[32px] font-bold uppercase text-dark sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+                <h2 className="mb-6 text-indigo-600 text-[32px] font-bold uppercase text-dark sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                   GET IN TOUCH WITH ME
                 </h2>
                 <div className="mb-8 flex w-full">
